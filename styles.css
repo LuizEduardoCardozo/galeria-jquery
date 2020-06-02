@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.imgshow {
+    width: 100%;
+    transition: all 500ms;
+}
+
+.show__img {
+    height: 500px;
+    width: 500px;
+    
+}
+
+.showcase {
+    margin-top: 30px;
+}
+
+.showcase__img {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.showcase__img:hover {
+    transform: scale(1.2);
+}
